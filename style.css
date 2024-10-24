@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif; /* Añade la fuente del texto a una fuente sans-serif */
+    margin: 0; /* Elimina el margen predeterminado del navegador alrededor del body */
+}
+
+.contenedor {
+    display: flex; /* Utiliza el modelo de caja flexible (flexbox) para la disposición de elementos */
+    flex-wrap: wrap; /* Permite que los elementos flexibles se ajusten a la liena que sigue si no hay suficiente espacio */
+    justify-content: space-around; /* Distribuye el espacio libre alrededor de los elementos en la línea */
+    padding: 20px; /* Inserta un relleno interno de 20 píxeles alrededor del contenido del contenedor */
+}
+
+.tarjeta {
+    width: 300px; /* Pone un ancho fijo de 300 píxeles para cada tarjeta */
+    margin: 10px; /* Inserta un margen de 10 píxeles alrededor de cada tarjeta */
+    border: 1px solid #ccc; /* Crea un borde delgado y gris claro alrededor de la tarjeta */
+    padding: 20px; /* Inserta un espacio interno de 20 píxeles dentro de la tarjeta */
+    border-radius: 5px; /* Redondea las esquinas de la tarjeta con un radio de 5 píxeles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Inserta una sombra suave debajo de la tarjeta */
+}
+
+.tarjeta img {
+    width: 100%; /* Hace que la imagen ocupe el 100% del ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen al ajustar su altura automáticamente */
+    display: block; /* Quita el espacio debajo de la imagen que en ocasiones aparece con imágenes inline */
+    border-radius: 5px 5px 0 0; /* Redondea las esquinas superiores de la imagen */
+}
+
+.tarjeta h3 {
+    margin-top: 10px; /* Inserta una margen superior de 10 píxeles al título */
+}
+
+
+.tarjeta p {
+    font-size: 0.9em; /* Pone el tamaño de fuente del párrafo a 90% del tamaño de fuente del elemento padre */
+    line-height: 1.5; /* Pone la altura de línea a 1.5 veces el tamaño de fuente */
+}
